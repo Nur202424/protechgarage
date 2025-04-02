@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProTechGarage LLC - Roadside Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #1e1e1e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1::before {
+      content: "🚗 ";
+      color: #ffcc00;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .cta {
+      background-color: #ffcc00;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.2em;
+      margin: 40px 0;
+    }
+    .contact {
+      background-color: #1e1e1e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+    .call-button {
+      display: block;
+      background-color: #ffcc00;
+      color: #000;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 300px;
+      border-radius: 8px;
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #1e1e1e;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .gallery img {
+      max-width: 100%;
+      width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .map-container {
+      text-align: center;
+      margin-top: 40px;
+    }
+    iframe {
+      border: 0;
+      width: 100%;
+      height: 400px;
+      border-radius: 8px;
+    }
+    .testimonials {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 30px;
+      margin-top: 40px;
+    }
+    .testimonial {
+      margin-bottom: 20px;
+    }
+    .testimonial p {
+      font-style: italic;
+    }
+    .testimonial h4 {
+      margin: 5px 0 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ProTechGarage LLC</h1>
+    <p>24/7 Roadside Services • Towing • Tire Change • Jump Start • Lockout Help</p>
+  </header>
+
+  <a class="call-button" href="tel:4122955283">📞 Call Now: (412) 295-5283</a>
+
+  <section>
+    <h2>Request Roadside Help</h2>
+    <form>
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="tel" name="phone" placeholder="Phone" required>
+      <input type="text" name="address" placeholder="Pickup Address" required>
+      <input type="text" name="issue" placeholder="Problem (short description)" required>
+      <textarea name="comment" placeholder="Comment (optional)"></textarea>
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Our Tow Truck</h2>
+    <div class="gallery">
+      <img src="https://drive.google.com/uc?id=1Yr9yzBVJvHvBnwygdx16cjF2nhqyR5Z-" alt="Tow Truck 1">
+      <img src="https://drive.google.com/uc?id=1VHpImKrQmGZx09q6LcrCHMwytm-xUv47" alt="Tow Truck 2">
+    </div>
+  </section>
+
+  <section>
+    <h2>About Us</h2>
+    <p>ProTechGarage LLC provides 24/7 on-demand roadside services in Pittsburgh and surrounding areas. We offer flexible and fast response with no fixed address — just call and we’ll come to you. Our specialties include towing, jump-starts, tire changes, and lockout assistance.</p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Emergency Roadside Assistance</li>
+      <li>Flatbed Towing</li>
+      <li>Jump-Start Battery</li>
+      <li>Tire Change</li>
+      <li>Lockout Service (open locked vehicles)</li>
+      <li>Local & Long-Distance Tows</li>
+      <li>Accident Recovery</li>
+    </ul>
+  </section>
+
+  <div class="cta">
+    <p>Need help now? Call <strong>(412) 295-5283</strong> for fast roadside service.</p>
+  </div>
+
+  <section>
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li>Fast Response Time</li>
+      <li>Affordable & Transparent Pricing</li>
+      <li>Friendly & Experienced Technician</li>
+      <li>Fully Insured</li>
+      <li>Serving Pittsburgh & Surrounding Areas</li>
+    </ul>
+  </section>
+
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial">
+      <p>"Got stuck on the side of the road at night — they came in 20 minutes and helped me out fast! Highly recommend."</p>
+      <h4>- Mark D.</h4>
+    </div>
+    <div class="testimonial">
+      <p>"Professional and friendly. Changed my flat tire in the rain — real lifesavers!"</p>
+      <h4>- Jessica R.</h4>
+    </div>
+    <div class="testimonial">
+      <p>"Locked my keys in the car downtown, and they showed up super fast. Amazing service!"</p>
+      <h4>- Carlos M.</h4>
+    </div>
+    <div class="testimonial">
+      <p>"Excellent roadside assistance! My battery was dead and they got me going in no time. Great service."</p>
+      <h4>- Emily T.</h4>
+    </div>
+    <div class="testimonial">
+      <p>"Needed a tow late at night, and they were quick, polite, and professional. Would call again!"</p>
+      <h4>- Brian S.</h4>
+    </div>
+  </section>
+
+  <section class="map-container">
+    <h2>Service Area</h2>
+    <p>We proudly serve Pittsburgh and nearby areas.</p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.001290517338!2d-79.99588838464702!3d40.44062427936167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f2213b89e3f7%3A0x7c0c26469011b6f3!2sPittsburgh%2C%20PA!5e0!3m2!1sen!2sus!4v1615587816514!5m2!1sen!2sus"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <div class="contact">
+    <p>&copy; 2025 ProTechGarage LLC</p>
+    <p>Email: <a href="mailto:info@pittstow.com">info@pittstow.com</a> | Phone: (412) 295-5283</p>
+  </div>
+</body>
+</html>
